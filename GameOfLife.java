@@ -186,6 +186,7 @@ public class GameOfLife {
 		//// Write your code here.
 		for (int i = 1; i < arr.length - 1; i++) 
 		{
+			System.out.print("  ");
 			for (int j = 1; j < arr[0].length - 1; j++) 
 			{
 				System.out.print(arr[i][j]);
